@@ -69,3 +69,18 @@ def hasil_prediksi():
         text="Hasil Prediksi: " + prodi.get()
     )
 
+button = tk.Button(
+    root,
+    text="Hasil Prediksi",
+    command=hasil_prediksi
+)
+button.pack(pady=10)
+
+hasil = tk.Label(
+    root,
+    text="Hasil prediksi akan muncul di sini",
+    font=("Arial", 12, "bold"),
+    fg="blue"
+)
+hasil.pack(pady=10)
+
