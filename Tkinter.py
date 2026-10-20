@@ -47,3 +47,13 @@ label_prodi.pack(pady=5)
 prodi = tk.StringVar()
 prodi.set("Teknologi Informasi")
 
+pilihan_prodi = [
+    "Teknologi Informasi",
+    "Teknik Sipil",
+    "Teknik Elektro",
+    "Teknik Mesin",
+    "Teknologi Elektromedis",
+    "Artificial Intelligence",
+    "Teknologi Rekayasa Otomotif"
+]
+
