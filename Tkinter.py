@@ -31,4 +31,16 @@ for i in range(10):
         width=25,
         anchor="w"
     )
-    
+    label.pack(side="left")
+
+    entry = tk.Entry(frame, width=15)
+    entry.pack(side="left")
+
+    nilai.append(entry)
+
+label_prodi = tk.Label(
+    root,
+    text="Pilih Program Studi:"
+)
+label_prodi.pack(pady=5)
+
