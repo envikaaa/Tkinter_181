@@ -10,3 +10,10 @@ judul = tk.Label(
     font=("Arial", 16, "bold")
 )
 judul.pack(pady=15)
+
+labelframe = tk.LabelFrame(
+    root,
+    text="Input Nilai Mata Pelajaran",
+    padx=10,
+    pady=10
+)
