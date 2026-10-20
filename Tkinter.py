@@ -64,3 +64,8 @@ menu_prodi = tk.OptionMenu(
 )
 menu_prodi.pack()
 
+def hasil_prediksi():
+    hasil.config(
+        text="Hasil Prediksi: " + prodi.get()
+    )
+
