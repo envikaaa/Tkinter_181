@@ -21,3 +21,14 @@ labelframe.pack(fill="both", expand=True, padx=20, pady=10)
 
 nilai = []
 
+for i in range(10):
+    frame = tk.Frame(labelframe)
+    frame.pack(pady=3)
+
+    label = tk.Label(
+        frame,
+        text=f"Nilai Mata Pelajaran {i+1}",
+        width=25,
+        anchor="w"
+    )
+    
