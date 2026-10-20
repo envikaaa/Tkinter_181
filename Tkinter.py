@@ -84,3 +84,4 @@ hasil = tk.Label(
 )
 hasil.pack(pady=10)
 
+root.mainloop()
