@@ -57,3 +57,10 @@ pilihan_prodi = [
     "Teknologi Rekayasa Otomotif"
 ]
 
+menu_prodi = tk.OptionMenu(
+    root,
+    prodi,
+    *pilihan_prodi
+)
+menu_prodi.pack()
+
